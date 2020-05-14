@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Bibliopompica</title>
+        {% assets "css-libraries" %}
+            <link href="{{ ASSET_URL }}" rel="stylesheet" type="text/css" />
+        {% endassets %}
+    </head>
+    <body>
+        {% block content %}{% endblock %}
+        {% assets "js-libraries" %}
+            <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+        {% endassets %}
+    </body>
+</html>

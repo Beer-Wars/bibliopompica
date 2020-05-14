@@ -1,0 +1,10 @@
+js-libraries:
+  output: 'assets/js/libraries-%(version)s.js'
+  contents:
+    - '../../node_modules/jquery/dist/jquery.min.js'
+    - '../../node_modules/materialize-css/dist/js/materialize.min.js'
+
+css-libraries:
+  output: 'assets/css/libraries-%(version)s.css'
+  contents:
+    - '../../node_modules/materialize-css/dist/css/materialize.min.css'
