@@ -5,7 +5,9 @@
   "private": true,
   "main": "bibliopompica/js/index.js",
   "dependencies": {
-    "materialize-css": "^1.0.0"
+    "jquery": "^3.5.1",
+    "materialize-css": "^1.0.0",
+    "react": "^16.13.1"
   },
   "scripts": {
     "build": "env FLASK_APP=bibliopompica/app.py flask assets build",
