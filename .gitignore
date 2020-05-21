@@ -141,4 +141,6 @@ cython_debug/
 node_modules/
 
 # assets bundles
-src/static/assets/
+bibliopompica/static/assets/
+
+.idea

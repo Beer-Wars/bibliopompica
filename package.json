@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "description": "Shared book recommendations",
   "private": true,
-  "main": "src/js/index.js",
+  "main": "bibliopompica/js/index.js",
   "dependencies": {
     "materialize-css": "^1.0.0"
   },
   "scripts": {
-    "build": "env FLASK_APP=src/app.py flask assets build",
-    "watch": "env FLASK_APP=src/app.py flask assets watch",
-    "server": "env FLASK_APP=src/app.py flask run"
+    "build": "env FLASK_APP=bibliopompica/app.py flask assets build",
+    "watch": "env FLASK_APP=bibliopompica/app.py flask assets watch",
+    "server": "env FLASK_APP=bibliopompica/app.py flask run"
   },
   "repository": {
     "type": "git",
